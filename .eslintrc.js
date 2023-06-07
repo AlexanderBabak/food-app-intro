@@ -34,7 +34,11 @@ module.exports = {
     quotes: ["error", "double", { allowTemplateLiterals: true }],
     semi: ["error", "always"],
     "no-shadow": "off",
+    "react-native/no-inline-styles": "off",
+    "react/self-closing-comp": "off",
     "@typescript-eslint/no-shadow": "error",
+    "@typescript-eslint/ban-ts-comment": "off",
+    "@typescript-eslint/no-var-requires": "off",
     "@typescript-eslint/no-unused-vars": "off",
     "@typescript-eslint/no-empty-interface": [
       "error",
